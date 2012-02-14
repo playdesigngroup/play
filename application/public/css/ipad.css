@@ -1,0 +1,18 @@
+/* hardware acceleration */
+p,h2,h3,#worklist li{-webkit-backface-visibility: hidden!important;-webkit-transform: rotate3d(0,0,0)!important;}
+
+/* Reset hover */
+#worklist li:hover span{display: none!important;}
+h2:hover{color:white!important;}
+
+/* Layout fixes */
+video{width: 1100px!important;-webkit-transform-style: preserve-3d;z-index: 0!important;left: -20px;}
+body{overflow-y: hidden;}
+#header{position: relative;z-index: 20;height: 40px!important;}
+#header h2{padding-bottom: 20px;position: relative;z-index: 20;-webkit-transition: 0.25s ease-in-out;padding-top: 20px!important;line-height: 40px!important;}
+#header img{top: 8px!important;}
+#st1{right: 20px!important;}
+#butterfly{right: 250px!important;}
+* {-webkit-tap-highlight-color: rgba(0, 0, 0, 0);}
+#mc-embedded-subscribe-form{left: 580px!important;}
+#mc-embedded-subscribe-form input[type="email"],#mc-embedded-subscribe-form input[type="text"]{border: solid 2px #666!important}

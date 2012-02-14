@@ -1,0 +1,12 @@
+/* hardware acceleration */
+p,h2,h3,#worklist li{-webkit-backface-visibility: hidden!important;-webkit-transform: rotate3d(0,0,0)!important;}
+
+/* Reset hover */
+#worklist li:hover span{display: none!important;}
+#header h2:hover{color:white!important;}
+* {-webkit-tap-highlight-color: rgba(0, 0, 0, 0); outline:0px solid #fff;}
+
+/* Layout */
+#header h2{font-size: 3em!important;margin-left: 3em!important;}
+#header{border-bottom: solid 1em black;z-index: 20;}
+#header img{height: 100%!important;width: auto!important;}
